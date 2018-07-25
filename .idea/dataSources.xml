@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="BASE" uuid="9dee18a5-91a8-43a6-91ee-665691991139">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.firebirdsql.jdbc.FBDriver</jdbc-driver>
+      <jdbc-url>jdbc:firebirdsql://localhost:3050/$PROJECT_DIR$/../Plan1/WebContent/Base/BASE.FDB</jdbc-url>
+      <driver-properties>
+        <property name="localEncoding" value="windows-1251" />
+        <property name="charSet" value="windows-1251" />
+        <property name="encoding" value="utf8" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Database Driver [2] - [2]" uuid="df24c0fd-e01c-4f72-863f-7c142676b3d8">
+      <driver-ref>java.sql.Driver</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>org.firebirdsql.jdbc.FBDriver</jdbc-driver>
+      <jdbc-url>jdbc:firebirdsql://localhost:3050/$PROJECT_DIR$/../Plan1/WebContent/Base/KYRS.FDB</jdbc-url>
+      <driver-properties>
+        <property name="localEncoding" value="utf8" />
+        <property name="charSet" value="UNICODE_FSS" />
+        <property name="encoding" value="UNICODE_FSS" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>

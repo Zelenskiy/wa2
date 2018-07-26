@@ -28,6 +28,7 @@ public class SpringConfig {
     }
 
     @Bean
+
     public DataSource getDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setUrl("jdbc:firebirdsql://localhost:3050/D:/java/Plan1/WebContent/Base/BASE.FDB");

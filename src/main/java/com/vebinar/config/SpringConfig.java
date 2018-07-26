@@ -16,10 +16,10 @@ import javax.sql.DataSource;
 @Configuration
 public class SpringConfig {
 
-    @Bean
-    public TestBean getTestBean(){
-        return new TestBean("hello");
-    }
+//    @Bean
+//    public TestBean getTestBean(){
+//        return new TestBean("hello");
+//    }
 
     @Bean
     public JdbcTemplate getJdbcTemplate (){
@@ -36,6 +36,14 @@ public class SpringConfig {
         dataSource.setDriverClassName("org.firebirdsql.jdbc.FBDriver");
         return dataSource;
     }
+//    public DataSource getDataSource() {
+//        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+//        dataSource.setUrl("jdbc:mysql://localhost:3306/base_wa2");
+//        dataSource.setUsername("root");
+//        dataSource.setPassword("");
+//        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+//        return dataSource;
+//    }
 
     @Bean
     public UserDao getUserDao(){
